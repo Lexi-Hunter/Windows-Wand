@@ -47,5 +47,5 @@ There are 5 categories of functions that the wand is able to perform:
   * Close the active window
   * Lock pc
 
-## Demo
+## Demo Video
 [![Wand Demo Video](https://img.youtube.com/vi/Zhz-s_bLLy0/0.jpg)](https://www.youtube.com/watch?v=Zhz-s_bLLy0)
