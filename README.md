@@ -1,5 +1,5 @@
 # Windows-Wand
-A Harry potter inspired wand that can detect spells drawn in the air and trigger events within a Windows PC
+A Harry Potter inspired wand that can detect spells drawn in the air and trigger events within a Windows PC
 
 <p align="center">
   <img src="https://github.com/Lexi-Hunter/Windows-Wand/blob/main/Images/Banner.jpg?raw=true" alt="Sublime's custom image"/>
@@ -46,3 +46,6 @@ There are 5 categories of functions that the wand is able to perform:
   * Maximise current window
   * Close the active window
   * Lock pc
+
+## Demo
+[![Wand Demo Video](https://img.youtube.com/vi/Zhz-s_bLLy0/0.jpg)](https://www.youtube.com/watch?v=Zhz-s_bLLy0)
