@@ -50,4 +50,23 @@ There are 5 categories of functions that the wand is able to perform:
 ## Demo Video
 [![Wand Demo Video](https://img.youtube.com/vi/Zhz-s_bLLy0/0.jpg)](https://www.youtube.com/watch?v=Zhz-s_bLLy0)
 
+## How to Build
+### Parts list:
+* Arduino nano
+* HC-05 bluetooth module
+* 6050 MPU accel/gyro
+* 3 AAA batteries
+* Tactile Push Button Switch (6x6x5mm)
+* KCD11 rocker switch
+* Access to 3D printer
 
+### Making the frame:
+[Files to print]("3D-Models")
+
+![Parts to Print](Images/Parts_to_Print.png)
+
+### Schematic:
+![Wand](Images/Schematic.png)
+
+### Assembly:
+![Wand](Images/Electronics_Inside.jpg)
