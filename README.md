@@ -88,3 +88,6 @@ Print the 7 stl files in the 3D-Models folder
 
 ### Assembly:
 ![Wand](Images/Electronics_Inside.jpg)
+
+### Software
+Download the zip file from the Application folder and extract. To connect, open bluetooth settings and pair, then note the COM port for the connection. Open the Windows Wand application and click on any spell tile. In the top right corner there is a field to enter the COM port that the wand is connected to. Simply enter the port and click connect. You should now be able to press the button and draw out the spells and trigger their assigned function!
