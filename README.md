@@ -50,6 +50,20 @@ There are 5 categories of functions that the wand is able to perform:
 ## Demo Video
 [![Wand Demo Video](https://img.youtube.com/vi/Zhz-s_bLLy0/0.jpg)](https://www.youtube.com/watch?v=Zhz-s_bLLy0)
 
+## How it Was Made
+This project was written in python, the GUI was made using Tkinter and the executable was assembled using pyinstaller.
+Each of the 25 spells had 100 training instances, where each training instance is comprised of 20 timesteps of data. Each timestep increments by 0.1 seconds, resulting in 2 seconds of recording for each instance.
+Each timestep includes 6 values:
+* Acceleration in the x axis
+* Acceleration in the y axis
+* Acceleration in the z axis
+* Gyroscope angle in the x axis
+* Gyroscope angle in the y axis
+* Gyroscope angle in the z axis
+
+These training instances were collected by manually drawing out each spell in the air with this mock wand rig:
+![Wand](Images/Wand_Rig.jpg)
+
 ## How to Build
 ### Parts list:
 * Arduino nano
@@ -61,7 +75,7 @@ There are 5 categories of functions that the wand is able to perform:
 * Access to 3D printer
 
 ### Making the frame:
-[Files to print]("3D-Models")
+Print the 7 stl files in the 3D-Models folder
 
 ![Parts to Print](Images/Parts_to_Print.png)
 
