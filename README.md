@@ -12,14 +12,15 @@ This project utilises machine learning to classify shapes drawn in the air throu
 
 The wand connects to a windows pc, then upon pressing the button, the wand will record the accel/gyro values for the next 2 seconds. During this 2 second window the user draws out the desired spell. This raw accel/gyro data is sent over bluetooth to a companion app that feeds the values as input to a classifier model which then predicts the spell which was drawn out, and activates the associated function.
 
-![Wand](Images/Picture_of_Wand.png)
+<img src="https://github.com/Lexi-Hunter/Windows-Wand/blob/main/Images/Picture_of_Wand.png" width="700">
+
 
 ## What Can the Wand Detect?
 The wand is able to detect 25 unique spell patterns. The origin of the spell shapes and names are from The Wizarding World of Harry Potter theme parks and also Harry Potter games.
 
 The following image shows the main UI with all the different spells that can be drawn out and detected.
 
-![Wand](Images/UI_Main.jpg)
+<img src="https://github.com/Lexi-Hunter/Windows-Wand/blob/main/Images/UI_Main.jpg" width="500">
 
 Each of the 25 spell tiles in the main UI window can be clicked in order to set the desired functionality when the spell is drawn. The following is an example of a spell settings window.
 
@@ -62,7 +63,10 @@ Each timestep includes 6 values:
 * Gyroscope angle in the z axis
 
 These training instances were collected by manually drawing out each spell in the air with this mock wand rig:
-![Wand](Images/Wand_Rig.jpg)
+
+<img src="https://github.com/Lexi-Hunter/Windows-Wand/blob/main/Images/Wand_Rig.jpg" width="500">
+
+The spell training data can be found in the Training-Data folder
 
 ## How to Build
 ### Parts list:
