@@ -2,7 +2,7 @@
 A Harry Potter inspired wand that can detect spells drawn in the air and trigger events within a Windows PC
 
 <p align="center">
-  <img src="https://github.com/Lexi-Hunter/Windows-Wand/blob/main/Images/Banner.jpg?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/Lexi-Hunter/Windows-Wand/blob/main/Images/Banner.jpg>
 </p>
 
 ## What is Windows-Wand?
